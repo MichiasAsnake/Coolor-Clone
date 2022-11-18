@@ -1,5 +1,5 @@
 <html>
-    <head>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,15 +24,24 @@
 </div>
 
 <input type="color" id="hexColor">
+ 
+<select name="schemes" id="colorSchemes">
+  <option value="monochrome">monochrome</option>
+  <option value="monochrome-dark">monochrome-dark</option>
+  <option value="monochrome-light"> monochrome-light</option>
+  <option value="analogic">analogic</option>
+  <option value="analogic-complement">analogic-complement</option>
+  <option value="triad">triad</option>
+  <option value="quad"> quad</option>
+</select>
+
 <button id="get-scheme">Get color scheme</button>
 
 <div class="colors" style="display:flex;">
    
-
-
 </div>
 
     <body>
-        <script src="index.pack.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>

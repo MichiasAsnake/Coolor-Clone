@@ -1,8 +1,6 @@
 html,body{
     font-family: 'Inter', sans-serif;
-
 }
-
 
 .header{
     width: 100%;
@@ -25,13 +23,11 @@ i{
     border: 1px solid grey;
     font-size: 16px;
     display: flex;
-    
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
     padding-right: 40px;
     padding-left: 40px;
-
 }
 
 .color{
@@ -44,5 +40,14 @@ i{
     width: 20vw;
     font-weight: 600;
     height: 780px;
-    border: 1px solid grey;
+}
+
+
+
+.hexsColor:hover{
+   border-radius: 10px;
+   background: rgba(194, 189, 189,.4);
+  
+   padding: 8px;
+    
 }
