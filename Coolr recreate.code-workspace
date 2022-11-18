@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Portfolio Site"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Coolr recreate"
+	}
+}
