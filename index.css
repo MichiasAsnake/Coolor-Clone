@@ -2,29 +2,44 @@ html,body{
     font-family: 'Inter', sans-serif;
 }
 
+@font-face {
+ 
+        font-family: "Sequel";
+        src: url("Fonts/Sequel\ Sans\ Black\ Disp.otf");
+        font-style: normal;
+}
+@font-face {
+    font-family: "Genera" ;
+    src: url(Fonts/Genera-AltLight.ttf);
+    font-style: normal;
+}
 .header{
     width: 100%;
     height: 61px;
-    border: 1px solid grey;
+    border-bottom: 1px solid  rgb(168, 168, 168);
     display: flex;
     align-items: center;
     box-sizing: border-box;
     padding-left: 40px;
     font-size: 30px;
+    color: black;
 }
 
-i{
-    color:black;
+header:hover{
+    cursor: pointer;
+   
 }
+i{
+    color: rgb(0, 0, 0);}
 
 .secondary-header{
     width: 100%;
     height: 57px;
-    border: 1px solid grey;
     font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: rgb(0, 0, 0);
     box-sizing: border-box;
     padding-right: 40px;
     padding-left: 40px;
@@ -39,7 +54,7 @@ i{
     padding-bottom: 80px;
     width: 20vw;
     font-weight: 600;
-    height: 780px;
+    height: 809px;
 }
 
 .hexsColor:hover{
@@ -51,17 +66,75 @@ i{
 #get-scheme{
     border-radius: 20px;
     background-color: white;
-    padding: 10px;
+    padding: 14px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
     border: solid 1px;
+    font-size: 15px;
     cursor: pointer;
+}
+
+#get-scheme:hover{
+    background-color: rgb(238, 238, 238);
 }
 
 #taskbarTwo{
     display:flex;
+    align-content:  center;
     padding:5px;
     gap: 9px;
+    margin: 0 0 0 30%;
 }
 
 .hexColor:hover{
    cursor: pointer;
+}
+
+.colorP{
+    margin: 124px 0 0 253px;
+    text-align: center;
+    align-items: center;
+}
+
+#headerFont{
+font-family: Sequel;
+font-size: 68px;
+line-height: 77.5px;
+}
+#headertwoFont{
+font-family: Genera;
+
+margin: 0px 0 36px 0;
+
+font-size: 18px;
+font-weight: 600;
+}
+
+a{
+  appearance: button;  
+text-decoration: none;
+color: black;
+}
+
+a:hover{
+    cursor: pointer;
+   
+}
+
+button{
+    cursor: pointer;
+    
+}
+
+#start{
+    width: 260px; 
+    height: 46px; 
+    border-radius:10px; 
+    background-color: #0066FF; 
+    border: none; 
+    color: white;
+}
+#start:hover{
+    background-color:  #0055d4;
 }

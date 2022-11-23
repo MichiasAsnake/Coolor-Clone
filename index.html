@@ -8,38 +8,41 @@
     </head>
 
 <div class="header">
-    <text>Coolor</text>
+    <a href="homepage.html"><text style="color:#0066FF;font-weight: 700;">Coolor</text></a>
 </div>
 <div class="secondary-header">
     
     <text>Press the spacebar to generate random color palettes!</text>
+
+    <div id="taskbarTwo">
+
+        <input type="color" id="hexColor" style="width: 70px; height: 40px;">
+         
+        <select name="schemes" style="height: 40px;">
+          <option value="monochrome">monochrome</option>
+          <option value="monochrome-dark">monochrome-dark</option>
+          <option value="monochrome-light"> monochrome-light</option>
+          <option value="analogic">analogic</option>
+          <option value="analogic-complement">analogic-complement</option>
+          <option value="triad">triad</option>
+          <option value="quad"> quad</option>
+        </select>
+        
+        <button id="get-scheme">Get color scheme</button>
+        
+        </div>
     <div style="display:flex; justify-content: center;">
 
         <i class="fa-regular fa-heart" style="font-size:25px; letter-spacing: 10px; margin: 4px 0 0 0px;"></i>
         <text style="margin-top: 8px">Save</text>
-        <div style="border: 1px solid grey; height:34px; margin: 0 0 2px 15px;"></div>
+        <div style="border: 1px solid  rgb(168, 168, 168); height:34px; margin: 0 0 2px 15px;"></div>
         <i class="fa-solid fa-bars" style="font-size:25px; margin: 4px -10px 0 22px"></i>
     </div>
+    
      
 </div>
 
-<div id="taskbarTwo">
 
-<input type="color" id="hexColor" style="width: 70px; height: 40px;">
- 
-<select name="schemes" id="colorSchemes">
-  <option value="monochrome">monochrome</option>
-  <option value="monochrome-dark">monochrome-dark</option>
-  <option value="monochrome-light"> monochrome-light</option>
-  <option value="analogic">analogic</option>
-  <option value="analogic-complement">analogic-complement</option>
-  <option value="triad">triad</option>
-  <option value="quad"> quad</option>
-</select>
-
-<button id="get-scheme">Get color scheme</button>
-
-</div>
 
 <div class="colors" style="display:flex;">
    
