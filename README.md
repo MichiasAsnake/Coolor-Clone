@@ -1,6 +1,6 @@
 # Coolor-Clone
 
-●A color picker app that generates random color schemes on spacebar or mouse click. Colors provided by the color picker API.
+●A color picker application that generates color schemes for users. Colors provided by the color picker API.
 
 ●Also allows users to create custom color schemes based on a selected color or color scheme.
 
